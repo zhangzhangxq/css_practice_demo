@@ -1,0 +1,158 @@
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "Microsoft YaHei";
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  color: #2b3643;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+ /* page header  */
+.page-header-navbar {
+  width: 100%;
+  height: 50px;
+  background-color: #2b3643;
+}
+
+.page-header-logo {
+  float: left;
+  display: block;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  margin-left: 40px;
+  color: #b4bcc8;
+}
+
+.page-header-inner .top-menu {
+  float: right;
+  width: 200px;
+  line-height: 50px;
+  margin-right: 20px;
+  color: #b4bcc8;
+}
+
+.top-menu .dropdown {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.dropdown-menu .dropdown-item {
+  background-color: #fff;
+}
+
+
+/* page sidebar */
+.page-sidebar-wrapper {
+   float: left;
+   display: block;
+   width: 230px;
+   min-height: 890px;
+   background-color: #2b3643;
+}
+
+.page-sidebar-menu{
+  margin-left: -35px;
+  color: #b4bcc8;
+  list-style: none;
+}
+
+.page-sidebar-menu li {
+  height: 50px;
+  color: #b4bcc8;
+}
+
+.page-sidebar-menu li a{
+  display: block;
+  position: relative;
+  margin: 0;
+  border: 0px;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 300;
+  color: #b4bcc8;
+}
+
+li.active a:focus {
+  color: #fff;
+  background: #1caf9a;
+}
+
+li .selected {
+  display: block;
+  background-image: none;
+  float: right;
+  position: absolute;
+  right: 0px;
+  top: 8px;
+  background: none;
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-right: 12px solid #ffffff;
+}
+
+
+/* page-content */
+
+.page-content-wrapper {
+  min-height: 890px;
+}
+
+.table-border {
+  border: 1px solid #7ca7cc;
+  margin-bottom: 25px;
+}
+
+.table-border-header{
+  border: 1px solid #7ca7cc;
+}
+
+.table-border-header{
+  height: 50px;
+  background-color: #578ebe;
+}
+
+.table-border-header .table-title{
+  line-height: 50px;
+  margin-left: 20px;
+  color: #b4bcc8;
+}
+/* page-bar */
+.page-bar {
+  height: 60px;
+}
+
+.page-bar .breadcrumb {
+  padding-left: 50px;
+}
+
+
+/* page footer */
+
+.page-footer {
+  height: 40px;
+  background-color: #2b3643;
+}
+
+.version {
+  clear: left;
+  margin-left: 40px;
+  font-size: 13px;
+  line-height: 40px;
+  background-color: #2b3643;
+  color: #b4bcc8;
+}
